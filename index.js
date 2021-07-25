@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const Exams = require("./models/Exams");
 
 const fastify = require("fastify")({
-  logger: true,
+  logger: false,
 });
 
 fastify.register(require("fastify-cors"), {
